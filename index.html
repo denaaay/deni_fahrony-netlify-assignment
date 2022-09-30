@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deni Fahrony</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+            fontFamily: {
+                arial: ['Arial', 'Helvetica', 'sans-serif'],
+                }
+            },
+            screens: {
+                '2xl': {'max': '1535px'},
+                // => @media (max-width: 1535px) { ... }
+        
+                'xl': {'max': '1279px'},
+                // => @media (max-width: 1279px) { ... }
+        
+                'lg': {'max': '1023px'},
+                // => @media (max-width: 1023px) { ... }
+        
+                'md': {'max': '767px'},
+                // => @media (max-width: 767px) { ... }
+        
+                'sm': {'max': '639px'},
+                // => @media (max-width: 639px) { ... }
+            }
+            }
+        }
+    </script>
+</head>
+<body class="font-arial">
+    
+    <section class="bg-amber-400">
+        <center>
+            <header class="pt-7" id="header">
+                <nav class="max-w-max relative">
+                    <a href="#header" class="text-xl no-underline text-zinc-100">Home</a>
+                    <a href="#main-content2" class="text-xl no-underline text-zinc-100 mr-5 ml-5">Project</a>
+                    <a href="#contact" class="text-xl no-underline text-zinc-100">Contact</a>
+                    <div class="absolute w-full h-[0.05px] bg-white bottom-[-10px]"></div>
+                </nav>
+                
+                <section class="mt-20 mb-20 text-center text-white">
+                    <h1 class="font-[cursive] text-[50px] mb-2.5 font-semibold">Deni Fahrony</h1>
+                    <p class="font-arial text-xl font-semibold">Backend Engineering</p>
+                </section>
+            </header>
+        </center>
+    
+        <main class="mt-8">
+            <section class="flex flex-row flex-wrap justify-center items-center gap-4 lg:gap-8 pb-[215px] lg:pb-[20px]">
+                <section class="flex flex-1 flex-row flex-wrap justify-center">
+                    <article class="w-[500px] h-[300px] lg:w-[300px] lg:h-[200px] bg-white relative flex justify-center items-center rounded-[5%]">
+                        <img src="images/mmm.png" alt="mmm.png" class="outline-none rounded-20 w-11/12 object-cover">
+                        <div class="absolute w-full h-full bg-amber-200 opacity-[25%] hover:opacity-0"></div>
+                    </article>
+                </section>
+    
+                <article class="flex-1 text-white text-justify pr-[50px] lg:pr-4 lg:pl-4">
+                    <h2 class="font-bold text-[30px]">About Me</h2><br>
+                    <p class="text-2xl">I am a student of the Faculty of Computer Science at the University of Jember. During my studies, I studied a lot of courses about Web Programming, Mobile App Programming, UI/UX Design, and other similar things.
+                        I am interested in learning, developing and taking the initiative to become a professional programmer.</p>
+                </article>
+            </section>
+        </main>
+    </section>
+
+    <center>
+        <main class="mt-[60px] pl-5 pr-5" id="main-content2">
+            <section class="flex flex-col justify-center w-[80%] lg:w-[95%] gap-8 mb-2.5">
+                <section class="mb-8 text-start text-2xl pb-2.5">
+                    <h1 class="text-3xl font-semibold">Education</h1>
+                </section>
+
+                <section class="flex flex-row flex-wrap justify-between text-start">
+                    <section class="w-[400px] h-52 relative bg-amber-400 text-white opacity-[75%] pl-8 pr-8 text-2xl font-semibold flex items-center border-0 rounded-lg rounded-tl-none">
+                        <article>
+                            Mathematics and Sciences, SMAN 11 Jakarta
+                            <div class="edu1-1 absolute p-1 w-52 top-[-30px] left-0 bg-amber-400 text-white opacity-[50%] font-semibold text-xl border-0 rounded z-0">Senior HS</div>
+                        </article>
+                    </section>
+
+                    <section class="w-[400px] h-52 relative bg-amber-400 text-white opacity-[75%] pl-8 pr-8 text-2xl font-semibold flex items-center border-0 rounded-lg rounded-tl-none lg:mt-14">
+                        <article>
+                            Information Technology, University of Jember
+                            <div class="absolute p-1 w-52 top-[-30px] left-0 bg-amber-400 text-white opacity-[50%] font-semibold text-xl border-0 rounded z-0">Collage</div>
+                        </article>
+                    </section>
+                </section>
+            </section>
+
+            <section class="mt-8 flex flex-col w-[80%] lg:w-[95%] mb-8">
+                <section class="mb-8 text-start text-2xl">
+                    <h1 class="text-3xl font-semibold">Projects</h1>
+                </section>
+
+                <section class="grid grid-cols-3 lg:grid-cols-none lg:grid-rows-3 gap-28 lg:gap-8">
+                    <a class="no-underline text-white text-start" href="https://github.com/denaaay/Gacoan" target="_blank">
+                        <div class="p-5 text-3xl flex flex-row flex-wrap border-0 shadow-md rounded-lg h-max bg-amber-400">
+                            <div class="flex items-center mb-5">
+                                <img src="images/github.png" alt="github.png" class="w-full h-full">
+                            </div>
+                            <div class="flex flex-row items-center gap-8">
+                                <div class="w-12 h-12">
+                                    <img src="images/dart.png" alt="dart.png" class="w-full h-full object-contain">
+                                </div>
+                                <div class="flex-1 text-xl text-start">
+                                    <p class="text-3xl">Gacoan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="no-underline text-white text-start" href="https://github.com/denaaay/PPDB-AWAN" target="_blank">
+                        <div class="p-5 text-3xl flex flex-row flex-wrap border-0 shadow-md rounded-lg h-max bg-amber-400">
+                            <div class="flex items-center mb-5">
+                                <img src="images/github.png" alt="github.png" class="w-full h-full">
+                            </div>
+                            <div class="flex flex-row items-center gap-8">
+                                <div class="w-12 h-12">
+                                    <img src="images/python.png" alt="python.png" class="w-full h-full object-contain">
+                                </div>
+                                <div class="flex-1 text-xl text-start">
+                                    <p class="text-3xl">PPDB Awan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="no-underline text-white text-start" href="https://github.com/denaaay/DrinkCashier" target="_blank">
+                        <div class="p-5 text-3xl flex flex-row flex-wrap border-0 shadow-md rounded-lg h-max bg-amber-400">
+                            <div class="flex items-center mb-5">
+                                <img src="images/github.png" alt="github.png" class="w-full h-full">
+                            </div>
+                            <div class="flex flex-row items-center gap-8">
+                                <div class="w-12 h-12">
+                                    <img src="images/python.png" alt="python.png" class="w-full h-full object-contain">
+                                </div>
+                                <div class="flex-1 text-xl text-start">
+                                    <p class="text-3xl">Drink Cashier</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </section>
+            </section>
+
+            <section class="flex flex-col justify-center w-[80%] lg:w-[95%] gap-4">
+                <section class="flex-1 text-start font-semibold text-2xl">
+                    <h1>Contact Me : </h1>
+                </section>
+
+                <section class="flex-1">
+                    <form>
+                        <section class="flex flex-col justify-center items-center gap-4">
+                            <article class="nama email flex flex-row lg:flex-col flex-wrap justify-center items-center gap-8 lg:gap-4 w-full">
+                                <section class="name flex-1 text-start w-full">
+                                    <label for="name" class="text-lg font-normal">Name : </label>
+                                    <input type="text" name="name" id="name" class="w-full mt-2.5 p-1 border-[1px] border-amber-400">
+                                </section>
+
+                                <section class="email flex-1 text-start w-full">
+                                    <label for="email" class="text-lg font-normal">Email :</label>
+                                    <input type="email" name="email" id="email" class="w-full mt-2.5 p-1 border-[1px] border-amber-400">
+                                </section>
+                            </article>
+
+                            <article class="message w-full">
+                                <section class="email flex-1 text-start">
+                                    <label for="message" class="text-lg font-normal">Messages : </label> <br>
+                                    <textarea name="message" id="message" class="w-full h-[150px] mt-2.5 p-1 border-[1px] border-amber-400"></textarea>
+                                </section>
+                            </article>
+                        </section>
+                    </form>
+                </section>
+            </section>
+        </main>
+    </center>
+
+    <center>
+        <footer class="flex flex-col flex-wrap justify-center gap-4 bg-amber-400 pt-5 pb-5 text-white mt-14" id="contact">
+            <section class="flex flex-row flex-wrap justify-center items-center gap-4">
+                <p class="text-2xl font-semibold">Social : </p>
+                <section class="grid grid-cols-[50px_50px_50px] gap-4">
+                    <div>
+                        <a href="https://www.instagram.com/dfahrony" target="_blank">
+                            <div class="w-9">
+                                <img src="images/ig.png" alt="ig.png" class="w-full">
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.github.com/denaaay" target="_blank">
+                            <div class="w-9">
+                                <img src="images/github.png" alt="github.png" class="w-full">
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.linkedin.com/in/dfahrony" target="_blank">
+                            <div class="w-9">
+                                <img src="images/linkedin.png" alt="linkedin.png" class="w-full">
+                            </div>
+                        </a>
+                    </div>
+                </section>
+            </section>
+
+            <section class="text-2xl font-semibold">
+                <p>Deni Fahrony</p>
+            </section>
+        </footer>
+    </center>
+
+</body>
+</html>
